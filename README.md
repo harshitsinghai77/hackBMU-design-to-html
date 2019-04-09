@@ -1,52 +1,68 @@
-# Introduction
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### Everyone is Moving Online
+## Available Scripts
 
-The twenty-first century digital world enabled mobile, empowered, content-hungry individuals to capture the value of enabling technologies and applications to manage, create, share, and influence content across the creation and delivery spectrum. Users were online in record numbers, spending a greater percentage of their time, and conducting more and more activities including communications, learning, entertainment, and social interaction. Digital technologies and broadband radically revolutionized the value equation for many industries, giving more influence and power to the individual. 
+In the project directory, you can run:
 
-**Businesses are now not just limited to physical addresses but are now moving towards virtual addresses on the internet. These virtual addresses are nothing but the web applications.**
+### `npm start`
 
-### Why are Web Applications are Now More Relevant Than Ever?
-1. Internet Economy is growing at a massive rate - _9% of USA's GDP comes from the Internet Economy_
-2. Web applications are the modern day combination of commercial store and billboards open 24/7 - _93% of business purchase decisions begin with a search engine search_
-3. Businesses with effective web applications have significant advantage over their competitors with no or relatively less developed web applications - _85% of the customers of a product use the internet to check validity of a business_
-4. Web applications open new horizons - _For every job destroyed by the internet 2.6 new jobs are created_
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-# Problem Statement
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
 
-With this massive ongoing transition where businesses are now moving to their virtual addresses, a lot of problems were bound to occur. We'll be tackling some these problems using our application: 
+### `npm test`
 
-1. Difficulty faced by small businesses, local traders and inviduals with no technical background to create a website to showcase their product or service that looks similar or exactly like their requirement - _More than 50% of small/medium-sized businesses in India do not have their own website_ 
-2. Large amount of time consumed by small/medium-sized businesses and individuals with techincal knowledge to develop a template of website that looks similar or exactly like their requirements thus obstructing rapid prototyping and slowing down process of application development.
+Launches the test runner in the interactive watch mode.<br>
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-# Solution
+### `npm run build`
 
-We'll be creating **5-click model** web application using which every user (regardless of the amount of technical knowledge they possess) right from a **ten year old to sixty five year old** can create and deploy a website - which looks exactly like they envisioned it to be - in matter of minutes. The same would be achieved using the following following 5 steps:
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-![5-Click Model](react/img/steps.jpg)
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
 
-New Website Creation and Deployment Steps:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-**Step 1:** User Logs in/ Registers in our portal. This is done so that any website template ceated by a particular user is saved in her/his account repository can be revisited by her/him and edited to her/his changing needs.
+### `npm run eject`
 
-**Step 2:** User uploads image of the wireframe sketch of their website created on a sheet of paper or digitally to our website. Our **Deep Learning Model** created using **Keras** converts this input image into output HTML/Bootstrap code.
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-**Step 3:** Users can now select the type codebase of their website from the range of options provided by us like React, Angular.js, Vue and many more.
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-**Step 4:** Users can now select the theme of their of their website from the range of options provided in our web application to make their website look more aesthetic.
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-**Step 5:** Website can be deployed by the user in a single click using third-party choices provided by us for. 
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Features
-1. Create and deploy new website.
-2. Edit existing website.
+## Learn More
 
-# Technology Stack
-* *React* A JavaScript library for building user interfaces
-* *Flask* Python's micro web framework.
-* *MySQL* Open source Relational Database Management System (RDBMS) that uses Structured Query Language (SQL), used to store our data.
-* *Keras* The Python Deep Learning library 
-* *Heroku* A platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.
-* *FloydHub* A zero setup Deep Learning platform for productive data science teams.
-* *Froala WYSIWYG Editor* Used to edit codebase of website generated by Deep Learning Model.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
